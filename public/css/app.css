@@ -120,13 +120,15 @@ footer .first-section div .container-links .link ul {
   padding-bottom: 1rem;
 }
 
-footer .first-section div .container-links .link ul li {
+footer .first-section div .container-links .link ul li,
+footer .first-section div .container-links .link ul a {
   line-height: 0.2rem;
   color: rgb(153, 153, 153);
   font-size: 0.8rem;
 }
 
-footer .first-section div .container-links .link ul li a {
+footer .first-section div .container-links .link ul li a,
+footer .first-section div .container-links .link ul a a {
   text-decoration: none;
 }
 

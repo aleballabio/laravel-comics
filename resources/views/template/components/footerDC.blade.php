@@ -7,7 +7,7 @@
                         <h1>{{ $category['category'] }}</h1>
                         @foreach ($category['links'] as $links)
                             <ul>
-                                <li>{{ $links['text'] }}</li>
+                                <li><a href="#!">{{ $links['text'] }}</a></li>
                             </ul>
                         @endforeach
                     </div>
