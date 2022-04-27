@@ -1,0 +1,80 @@
+.container-slide {
+  height: 7.8rem;
+  padding-left: 17vw;
+  padding-right: 17vw;
+}
+
+.container-slide-noheight {
+  padding-left: 17vw;
+  padding-right: 17vw;
+}
+
+.container-small {
+  height: 1.8rem;
+  background-color: black;
+}
+
+h1 {
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-weight: unset;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header div {
+  height: 100%;
+  background-color: white;
+}
+
+header div div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+header div div img {
+  width: 80px;
+}
+
+header div div nav {
+  height: 100%;
+}
+
+header div div ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+}
+
+header div div ul li {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+header div div ul li a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+}
+
+header div div ul li:hover {
+  border-bottom: 3px rgb(2, 130, 249) solid;
+  margin-bottom: -3px;
+}
+

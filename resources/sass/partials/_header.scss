@@ -1,0 +1,50 @@
+header {
+    div {
+        height: 100%;
+        background-color: white;
+
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+
+            img {
+                width: 80px;
+            }
+
+            nav {
+                height: 100%;
+            }
+
+            ul {
+                display: flex;
+
+                align-items: center;
+                list-style: none;
+                height: 100%;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                    text-align: center;
+                    padding: 10px;
+
+                    a {
+                        font-size: 0.9rem;
+                        text-decoration: none;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        color: black;
+                    }
+                }
+
+                li:hover {
+                    border-bottom: 3px $blue solid;
+                    margin-bottom: -3px;
+                }
+            }
+        }
+    }
+}

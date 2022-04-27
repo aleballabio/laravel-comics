@@ -14,5 +14,49 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    $data = [
+        'links' => [
+            'links' =>
+            [
+                'text' => "characters",
+            ],
+
+            [
+                'text' => "comics",
+            ],
+
+            [
+                'text' => "movies",
+            ],
+
+            [
+                'text' => "tv",
+            ],
+
+            [
+                'text' => "games",
+            ],
+
+            [
+                'text' => "collectibles",
+            ],
+
+            [
+                'text' => "video",
+            ],
+
+            [
+                'text' => "fans",
+            ],
+
+            [
+                'text' => "news",
+            ],
+
+            [
+                'text' => "shop",
+            ],
+        ],
+    ];
+    return view('home', $data);
+})->name('home');
