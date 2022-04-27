@@ -1,0 +1,92 @@
+footer {
+    background-image: url("/img/footer-bg.jpg");
+    background-size: cover;
+
+    //Links
+    .first-section {
+        overflow: hidden;
+        height: 380px;
+        padding-top: 3rem;
+
+        div {
+            display: flex;
+            justify-content: space-between;
+
+            .container-links {
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                flex-wrap: wrap;
+                height: 300px;
+
+                .link {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding-right: 3rem;
+
+                    h1 {
+                        text-transform: uppercase;
+                        padding-bottom: 1rem;
+                    }
+
+                    ul {
+                        list-style: none;
+                        vertical-align: middle;
+                        padding-bottom: 1rem;
+
+                        li {
+                            line-height: 0.2rem;
+                            color: $lightgrey;
+                            font-size: 0.8rem;
+
+                            a {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .dclogo {
+            position: relative;
+            bottom: 150px;
+        }
+    }
+
+    //Sign Up Mail
+
+    .second-section {
+        background-color: $lightdark;
+
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .sign-up {
+                button {
+                    border: 2px solid $blue;
+                    background-color: transparent;
+                    color: white;
+                    text-transform: uppercase;
+                    padding: 0.8rem;
+                    font-size: 1.1rem;
+                }
+            }
+
+            .social {
+                h1 {
+                    color: $blue;
+                    text-transform: uppercase;
+                }
+
+                .icon-image {
+                    padding-left: 1rem;
+                }
+            }
+        }
+    }
+}
+

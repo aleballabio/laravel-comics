@@ -6,11 +6,12 @@
               <nav>
                   <ul>
                       @foreach ($links as $value)
-                          <li> <a href="#!">{{ $value->text }}</a>
+                          <li> <a href="{{ route($value['text']) }}">{{ $value['text'] }}</a>
                           </li>
                       @endforeach
                   </ul>
               </nav>
+
           </div>
       </div>
   </header>

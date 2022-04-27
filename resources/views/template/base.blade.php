@@ -10,9 +10,9 @@
 </head>
 
 <body>
-    @include('components.headerDC')
+    @include('template.components.headerDC')
     @yield('content')
-    @include('components.footerDC')
+    @include('template.components.footerDC')
 
     <script src="{{ mix('js/app.js') }}"></script>
 </body>

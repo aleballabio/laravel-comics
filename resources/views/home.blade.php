@@ -1,7 +1,6 @@
 @extends('template.base')
 
-@section('title, DC Comics')
-@endsection
+@section('title', 'DC Comics')
 
 @section('content')
 @endsection

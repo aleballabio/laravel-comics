@@ -78,3 +78,88 @@ header div div ul li:hover {
   margin-bottom: -3px;
 }
 
+footer {
+  background-image: url("/img/footer-bg.jpg");
+  background-size: cover;
+}
+
+footer .first-section {
+  overflow: hidden;
+  height: 380px;
+  padding-top: 3rem;
+}
+
+footer .first-section div {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .first-section div .container-links {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 300px;
+}
+
+footer .first-section div .container-links .link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 3rem;
+}
+
+footer .first-section div .container-links .link h1 {
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+
+footer .first-section div .container-links .link ul {
+  list-style: none;
+  vertical-align: middle;
+  padding-bottom: 1rem;
+}
+
+footer .first-section div .container-links .link ul li {
+  line-height: 0.2rem;
+  color: rgb(153, 153, 153);
+  font-size: 0.8rem;
+}
+
+footer .first-section div .container-links .link ul li a {
+  text-decoration: none;
+}
+
+footer .first-section .dclogo {
+  position: relative;
+  bottom: 150px;
+}
+
+footer .second-section {
+  background-color: rgb(48, 48, 48);
+}
+
+footer .second-section div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .second-section div .sign-up button {
+  border: 2px solid rgb(2, 130, 249);
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+}
+
+footer .second-section div .social h1 {
+  color: rgb(2, 130, 249);
+  text-transform: uppercase;
+}
+
+footer .second-section div .social .icon-image {
+  padding-left: 1rem;
+}
+
