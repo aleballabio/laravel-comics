@@ -58,7 +58,7 @@ Route::get('/', function () {
                 'text' => "shop",
             ],
         ],
-        'posters' => config('comics'),
+        'comics' => config('comics'),
         'navigationList' => [
             [
                 'category' => "DC Comics",
@@ -205,6 +205,33 @@ Route::get('/', function () {
             [
                 'nome' => "Periscope",
                 'img' => asset('img/footer-periscope.png'),
+            ],
+        ],
+
+        'sections' => [
+            [
+                'text' => "Digital comics",
+                'img' =>  asset('img/buy-comics-digital-comics.png'),
+            ],
+
+            [
+                'text' => "dc merchandise",
+                'img' =>   asset('img/buy-comics-merchandise.png'),
+            ],
+
+            [
+                'text' => "subscription",
+                'img' =>   asset('img/buy-comics-subscriptions.png'),
+            ],
+
+            [
+                'text' => "comic shop locator",
+                'img' =>   asset('img/buy-comics-shop-locator.png'),
+            ],
+
+            [
+                'text' => "dc power visa",
+                'img' =>   asset('img/buy-dc-power-visa.svg'),
             ],
         ],
     ];
