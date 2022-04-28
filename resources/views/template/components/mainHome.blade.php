@@ -2,7 +2,7 @@
     <div class="first-section">
         <!-- Jumbo -->
         <div class="jumbo">
-            <img src="../assets/img/jumbotron.jpg" alt="Jumbo" />
+            <img src="{{ asset('img/jumbotron.jpg') }}" alt="Jumbo" />
         </div>
         <!-- Cards -->
         <div class="container-slide-noheight">
@@ -11,12 +11,14 @@
             <div class="container-cards">
                 @foreach ($comics as $comic)
                     <div class="card">
-                        <div class="container-image">
-                            <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}" />
-                        </div>
+                        <a href="#!">
+                            <div class="container-image">
+                                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}" />
+                            </div>
 
-                        <h3 class="subtitle">{{ $comic['series'] }}</h3>
+                            <h3 class="subtitle">{{ $comic['series'] }}</h3>
                     </div>
+                    </a>
                 @endforeach
             </div>
 

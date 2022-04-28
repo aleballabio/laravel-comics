@@ -4,22 +4,22 @@
     flex-direction: column;
     padding: 1rem;
     margin: 0;
-}
 
-.container-image {
-    width: 100%;
+    .container-image {
+        width: 100%;
 
-    img {
-        width: 160px;
-        height: 160px;
-        object-fit: cover;
-        object-position: top;
+        img {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            object-position: top;
+        }
     }
-}
 
-.subtitle {
-    text-transform: uppercase;
-    color: white;
-    font-size: 0.8rem;
-    padding-top: 1rem;
+    .subtitle {
+        text-transform: uppercase;
+        color: white;
+        font-size: 0.8rem;
+        padding-top: 1rem;
+    }
 }

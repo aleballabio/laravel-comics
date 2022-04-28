@@ -165,3 +165,118 @@ footer .second-section div .social .icon-image {
   padding-left: 1rem;
 }
 
+main .first-section {
+  background-color: black;
+}
+
+main .first-section .jumbo {
+  height: 420px;
+}
+
+main .first-section .jumbo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+main .first-section .current-series {
+  display: inline-block;
+  background-color: rgb(2, 130, 249);
+  padding: 0.8rem 1.4rem;
+  text-transform: uppercase;
+  position: relative;
+  top: -25px;
+}
+
+main .first-section .container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+main .first-section .cont-load-more {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+main .first-section .cont-load-more .load-more {
+  background-color: rgb(2, 130, 249);
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  padding: 1rem 4rem;
+}
+
+main .second-section {
+  background-color: rgb(2, 130, 249);
+}
+
+main .second-section div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .second-section div ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+main .second-section div li {
+  display: flex;
+  align-items: center;
+}
+
+main .second-section div li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1.5rem;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+main .second-section div li a span {
+  width: 45px;
+  margin-right: 1rem;
+}
+
+main .second-section div li a span img {
+  width: 100%;
+}
+
+.card {
+  flex-basis: calc(16.6666666667% - 2rem);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0;
+}
+
+.card .container-image {
+  width: 100%;
+}
+
+.card .container-image img {
+  width: 160px;
+  height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.card .subtitle {
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.8rem;
+  padding-top: 1rem;
+}
+
